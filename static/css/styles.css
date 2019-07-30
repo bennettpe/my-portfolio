@@ -4,20 +4,31 @@
 
 /*----------------------------------------------------*/
 /* https://www.canva.com/learn/100-color-combinations/
-/* 21. Warm Naturals
-/* #2e2300 = bark
-/* #6e6702 = seaweed green
-/* #c05805 = bronze
-/* #db9501 = goldenrod
+/* 04. Crisp & Dramatic
+/* #505160 = Thunder Cloud
+/* #68829e = Waterfall
+/* #aebd38 = Moss
+/* #598234 = Meadow
+
+/* Text Colours */
+.thundercloud-text {
+    color:#505160 !important;
+}
+.waterfall-text {
+    color:#68829e !important;
+}
+.moss-text {
+    color:#aebd38 !important;
+}
+.meadow-text {
+    color:#598234 !important;
+}
 /*----------------------------------------------------*/
+
 body {
 	font-size: 16px;
     height: 100%;
     width: 100%;
-}
-
-a {
-	color: #009688;
 }
 
 blockquote {
@@ -34,9 +45,9 @@ blockquote * {
   line-height: inherit;
 }
 
-/* Change button background color*/
-.btn-floating {
-   background-color:#2e2300;
+/* Change button color*/
+.btn , .btn-small, .btn-large{
+    background-color: #505160 !important;
 }
 
 /* Spacing between buttons */
@@ -73,18 +84,21 @@ main {
 
 /* Change tooltip color */
 .backdrop {
-    background-color:#c05805;
+    background-color: #aebd38;
 }
 
 /* Change tooltip radius */
 .material-tooltip {
     border-radius: 2rem;
+    color: black;
 }
 
 /* Change border radius */
 .square {
     border-radius: 1rem;
 }
+
+
 
 ul.side-nav {
 	width: 200px;
@@ -156,8 +170,9 @@ li.logo span {
     font-size: 2.28rem;
 }
 
+/* Change page title */
 .page-title {
-   background-color: #009688;
+   background-color: #68829e; /* Waterfall */
    text-align: center;
 }
 
@@ -170,7 +185,6 @@ h3 {
 }
 
 .section {
-	/* padding-bottom: 30px; */
 	padding-top: 0;
 	position: relative;
 }
@@ -195,13 +209,11 @@ h3 {
 	color: black;
 	font-weight: 200;
 	left: 0;
-	/* position: absolute; */
 	top: 0;
 }
 
 #intro.section .container *:not(span) {
 	font-weight: 300;
-	/*line-height: 150%;*/
 	padding: 0 30px;
 	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
@@ -210,7 +222,7 @@ h3 {
 	border-bottom: 5px solid #009688;
 }
 
-#intro.section .teal {
+#intro.section {
 	padding: 0 10px;
 }
 
@@ -221,10 +233,6 @@ h3 {
   border: 1px solid #6c757d;
   margin: auto;
   width: 675px;
-}
-
-.overlay {
-	/* background-color: rgba(0, 0, 0, 0.2); */
 }
 
 .hide-on-med-and-down {
@@ -240,7 +248,7 @@ h3 {
 
 .card {
 	margin-bottom: 40px;
-    border-radius: 0.35rem;
+    border-radius: 0.45rem;
 }
 
 .card .role {
@@ -259,10 +267,6 @@ h3 {
 .card li a:hover {
 	color: #333;
 	font-weight: 500;
-}
-
-.card .card-content {
-	padding-bottom: 30px;
 }
 
 .card .card-content p {
@@ -301,7 +305,7 @@ h3 {
 
 .card-action span {
 	font-size: 85%;
-	color: #666;
+	color: #68829e;
 }
 
 .card ul {
@@ -309,7 +313,7 @@ h3 {
 }
 
 .card ul li {
-	line-height: 200%;
+	/* line-height: 200%; */
 	list-style-type: disc;
 	margin-left: 24px;
 }
@@ -355,7 +359,7 @@ a.hoverline:hover {
 #skills h4 {
 	border-bottom: 1px solid #ddd;
 	/* margin-bottom: 30px; */
-	padding-bottom: 20px;
+	padding-bottom: 10px;
     text-align: center;
 }
 
@@ -403,10 +407,6 @@ a.hoverline:hover {
 	height: auto;
 }
 
-.card.medium .card-image {
-	height: 210px;
-}
-
 .card-action a.btn-floating {
 	margin-bottom: 0;
 }
@@ -452,7 +452,6 @@ a.hoverline:hover {
 	}
 
 	ul.side-nav a {
-	  /* line-height: 100%; */
 	  padding: 0;
 	  width: 100%;
 	}
@@ -515,12 +514,7 @@ a.hoverline:hover {
 	h3,
 	.container {
         position: relative;
-        /* top: 64px; */
 	}
-
-	/* section #intro {
-	    margin-bottom: -64px;
-	} */
 
 	.card .role {
         position: relative;
@@ -564,9 +558,10 @@ a.hoverline:hover {
         margin-right: 10px
     }
 
-    /* */
+    /* Change color of text */
     .text-icon {
     font-size: 14px;
+    color:#505160;
     }
 }
 
@@ -580,7 +575,7 @@ footer.page-footer {
 /* Back to top button */
 .bttop {
     width: 65px;
-    background: #c05805;
+    background: #aebd38;
     position: fixed;
     right: -9px;
     bottom: 33px;
@@ -591,7 +586,7 @@ footer.page-footer {
 
 /* Back to top button hover */
 .bttop:hover {
-    background: #c05805;
+    background: #aebd38;
     box-shadow: 5px 10px 25px #555;
 }
 
