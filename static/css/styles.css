@@ -56,11 +56,6 @@ blockquote * {
 }
 
 /* */
-.row .col {
-    /* padding:0 0 0.25rem 0.25rem; (top,right,bottom,Left) */
-}
-
-/* */
 .text-center {
 	text-align: center;
 }
@@ -97,8 +92,6 @@ main {
 .square {
     border-radius: 1rem;
 }
-
-
 
 ul.side-nav {
 	width: 200px;
@@ -372,7 +365,7 @@ a.hoverline:hover {
 #skills .col img.responsive-img {
 	margin: 0 auto;
 	max-height: 100px;
-	/* padding-bottom: 10px; */
+	padding-bottom: 5px;
 	text-align: center;
 	vertical-align: middle;
     display: table-cell;
@@ -442,6 +435,12 @@ a.hoverline:hover {
 	.card ul li {
 		line-height: 150%;
 	}
+}
+
+@media (min-width: 993px) {
+    .row .col.l2 {
+    padding:0 0 0 0.45rem; /*(top,right,bottom,Left) */
+    }
 }
 
 @media (max-width: 992px) {
