@@ -426,6 +426,14 @@ img.exp-img {
     text-align: center;
 }
 
+#projects .card-title {
+       padding-left: 10px;
+    }
+
+#projects p {
+       padding-left: 10px;
+    }
+
 .fa-external-link:before {
   left: 3px;
   position: relative;
