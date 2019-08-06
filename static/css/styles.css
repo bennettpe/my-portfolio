@@ -9,7 +9,6 @@
 /* #68829e = Waterfall
 /* #aebd38 = Moss
 /* #598234 = Meadow
-
 /* Text Colours */
 .thundercloud-text {
     color:#505160 !important;
@@ -26,18 +25,18 @@
 /*----------------------------------------------------*/
 
 body {
-	font-size: 16px;
+    font-size: 16px;
     height: 100%;
     width: 100%;
 }
 
 blockquote {
-	border-left: 5px solid #626d71;
-	color: #626d71;
-	font-size: 125%;
-	font-weight: 400;
-	margin: 20px 0;
-	padding-left: 1.5rem;
+    border-left: 5px solid #626d71;
+    color: #626d71;
+    font-size: 125%;
+    font-weight: 400;
+    margin: 20px 0;
+    padding-left: 1.5rem;
 }
 
 blockquote * {
@@ -70,24 +69,24 @@ blockquote * {
 
 /* */
 .text-center {
-	text-align: center;
+    text-align: center;
 }
 
 nav {
-	background: white;
-	box-shadow: none;
-	height: 0;
+    background: white;
+    box-shadow: none;
+    height: 0;
 }
 
 nav i {
-	padding: 0 15px;
-	position: relative;
-	top: 5px;
+    padding: 0 15px;
+    position: relative;
+    top: 5px;
 }
 
 main {
-	background: url("../images/bg.png") repeat;
-	padding-left: 200px;
+    background: url("../images/bg.png") repeat;
+    padding-left: 200px;
 }
 
 /* Change tooltip color */
@@ -107,65 +106,65 @@ main {
 }
 
 ul.side-nav {
-	width: 200px;
+    width: 200px;
     background-color: #f1f1f2;
 }
 
 ul.side-nav li {
-	padding: 0;
+    padding: 0;
 }
 
 ul.side-nav.fixed a {
-	box-sizing: content-box;
-	display: block;
-	line-height: 100%;
-	padding: 15px 0 15px;
+    box-sizing: content-box;
+    display: block;
+    line-height: 100%;
+    padding: 15px 0 15px;
 }
 
 ul.table-of-contents li.logo a.active,
 ul.table-of-contents li.logo a:hover {
-	border: none;
-	font-weight: 200;
+    border: none;
+    font-weight: 200;
 }
 
 ul.side-nav.fixed li.logo {
-	background-color: #fafafa;
-	border-bottom: 1px solid #ddd;
-	box-sizing: content-box;
-	min-height: 90px;
-	padding: 30px 30px 40px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #ddd;
+    box-sizing: content-box;
+    min-height: 90px;
+    padding: 30px 30px 40px;
 }
 
 ul.side-nav.fixed li.logo a {
-	font-weight: 200;
-	line-height: 100%;
+    font-weight: 200;
+    line-height: 100%;
 }
 
 ul.table-of-contents li:not(.logo) a.active,
 ul.table-of-contents li:not(.logo) a:hover {
-	background-color: #fafafa;
-	border-left: 3px solid ;
+    background-color: #fafafa;
+    border-left: 3px solid ;
 }
 
 ul.side-nav.fixed.table-of-contents li:not(.logo) a span,
 ul#slide-out li:not(.logo) a span {
-	color: #333 !important;
+    color: #333 !important;
 }
 
 li.logo span {
-	display: block;
-	font-size: 14px;
+    display: block;
+    font-size: 14px;
 }
 
 .brand-logo h1 {
-	font-size: inherit;
+    font-size: inherit;
   line-height: inherit;
   margin: inherit;
   font-weight: inherit;
 }
 
 .container {
-	width: 95%
+    width: 95%
 }
 
 .name {
@@ -183,25 +182,25 @@ li.logo span {
 }
 
 h3 {
-	font-weight: 200;
-	margin-bottom: 60px;
-	margin-top: 0;
-	padding: 30px 40px;
-	text-transform: none;
+    font-weight: 200;
+    margin-bottom: 60px;
+    margin-top: 0;
+    padding: 30px 40px;
+    text-transform: none;
 }
 
 .section {
-	padding-top: 0;
-	position: relative;
+    padding-top: 0;
+    position: relative;
 }
 
 .full-height {
-	height: 100vh;
+    height: 100vh;
 }
 
 /* INTRO SECTION */
 #intro.section {
-	background: url("../images/IMG_1278.jpg");
+    background: url("../images/IMG_1278.jpg");
 
     /* Center and scale the image nicely */
     background-position: center;
@@ -211,24 +210,24 @@ h3 {
 }
 
 #intro.section .container {
-	color: black;
-	font-weight: 200;
-	left: 0;
-	top: 0;
+    color: black;
+    font-weight: 200;
+    left: 0;
+    top: 0;
 }
 
 #intro.section .container *:not(span) {
-	font-weight: 300;
-	padding: 0 30px;
-	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    font-weight: 300;
+    padding: 0 30px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
 
 #intro.section .underline {
-	border-bottom: 5px solid #009688;
+    border-bottom: 5px solid #009688;
 }
 
 #intro.section {
-	padding: 0 10px;
+    padding: 0 10px;
 }
 
 /* ADD background color to intro text background */
@@ -252,30 +251,34 @@ h3 {
  }
 
 .card {
-	margin-bottom: 40px;
+    margin-bottom: 40px;
     border-radius: 0.45rem;
 }
 
 .card .role {
-	font-size: 1.20rem;
+    font-size: 1.20rem;
     position: absolute;
     right: 38px;
     top: 35px;
 }
 
 .card li a {
-	margin-right: 0;
-	color: #333;
-	border-bottom: 2px solid #ffab40;
+    margin-right: 0;
+    color: #333;
+    border-bottom: 2px solid #ffab40;
 }
 
 .card li a:hover {
-	color: #333;
-	font-weight: 500;
+    color: #333;
+    font-weight: 500;
+}
+
+.card .card-content{
+    padding: 5px 0 5px 0;
 }
 
 .card .card-content p {
-	padding: 5px 0 0;
+    padding: 5px;
 }
 
 .card h5 {
@@ -293,7 +296,7 @@ h3 {
 
 #experience .card-action .card-company {
     background-color: rgba(0,0,0,0.02);
-	border: none;
+    border: none;
 }
 
 .card-company {
@@ -309,18 +312,18 @@ h3 {
 }
 
 .card-action span {
-	font-size: 85%;
-	color: #68829e;
+    font-size: 85%;
+    color: #68829e;
 }
 
 .card ul {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .card ul li {
-	/* line-height: 200%; */
-	list-style-type: disc;
-	margin-left: 24px;
+    /* line-height: 200%; */
+    list-style-type: disc;
+    margin-left: 24px;
 }
 
 .card ul li li {
@@ -329,11 +332,11 @@ h3 {
 }
 
 .card .card-title {
-	font-size: 20px;
+    font-size: 20px;
 }
 
 .card .card-content .card-title {
-	line-height: 2.0rem
+    line-height: 2.0rem
 }
 
 .card i.right {
@@ -341,20 +344,20 @@ h3 {
 }
 
 a.hoverline {
-	border-bottom: 3px solid transparent !important;
-	padding: 3px 3px 0 3px;
-	transition: .25s all;
-	-moz-transition: .25s all;
-	-webkit-transition: .25s all;
+    border-bottom: 3px solid transparent !important;
+    padding: 3px 3px 0 3px;
+    transition: .25s all;
+    -moz-transition: .25s all;
+    -webkit-transition: .25s all;
     text-align: center;
 }
 
 a.hoverline:hover {
-	border-bottom: 3px solid #009688 !important;
+    border-bottom: 3px solid #009688 !important;
 }
 
 #skills .card.large {
-	height: 360px;
+    height: 360px;
 }
 
 #skills-it .card.large {
@@ -362,9 +365,9 @@ a.hoverline:hover {
 }
 
 #skills h4 {
-	border-bottom: 1px solid #ddd;
-	/* margin-bottom: 30px; */
-	padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    /* margin-bottom: 30px; */
+    padding-bottom: 10px;
     text-align: center;
 }
 
@@ -376,11 +379,11 @@ a.hoverline:hover {
 }
 
 #skills .col img.responsive-img {
-	margin: 0 auto;
-	max-height: 100px;
+    margin: 0 auto;
+    max-height: 100px;
     padding: 5px 0 5px 0;
-	text-align: center;
-	vertical-align: middle;
+    text-align: center;
+    vertical-align: middle;
     display: table-cell;
 }
 
@@ -408,19 +411,19 @@ img.exp-img {
 }
 
 .card.large .card-image {
-	height: 230px;
+    height: 230px;
 }
 
 .card.large .card-content {
-	height: auto;
+    height: auto;
 }
 
 .card-action a.btn-floating {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 #experience .col.s12.m2 {
-	text-align: center;
+    text-align: center;
 }
 
 .fa-external-link:before {
@@ -438,9 +441,9 @@ img.exp-img {
 }
 
 @media (min-width: 1200px) {
-	#experience .container {
-		width: 860px
-	}
+    #experience .container {
+        width: 860px
+    }
 
     #intro.section {
     background-position-y: 25%;
@@ -448,9 +451,9 @@ img.exp-img {
 }
 
 @media (max-width: 1160px) {
-	.card ul li {
-		line-height: 150%;
-	}
+    .card ul li {
+        line-height: 150%;
+    }
 }
 
 @media (min-width: 993px) {
@@ -472,112 +475,112 @@ img.exp-img {
 }
 
 @media (max-width: 992px) {
-	main {
-		padding-left: 0px;
-		padding-top: 64px;
-	}
+    main {
+        padding-left: 0px;
+        padding-top: 64px;
+    }
 
-	ul.side-nav a {
-	  padding: 0;
-	  width: 100%;
-	}
+    ul.side-nav a {
+      padding: 0;
+      width: 100%;
+    }
 
-	nav {
-		background: #fff;
-		height: 64px;
-		position: absolute;
-	}
+    nav {
+        background: #fff;
+        height: 64px;
+        position: absolute;
+    }
 
-	nav a.button-collapse,
-	nav a.button-collapse i {
-		color: #009688;
+    nav a.button-collapse,
+    nav a.button-collapse i {
+        color: #009688;
         font-size: 2.2rem;
-		height: 56px;
-		line-height: 56px;
-	}
+        height: 56px;
+        line-height: 56px;
+    }
 
-	h3 {
-	   padding: 20px 30px;
-  	   margin-bottom: 40px;
-	}
+    h3 {
+       padding: 20px 30px;
+       margin-bottom: 40px;
+    }
 
-	.container {
-	   margin:  0 auto;
-	}
+    .container {
+       margin:  0 auto;
+    }
 
-	nav.hide-on-large.only.trigger {
-	  display: block;
-	  position: fixed;
-	  top: 0;
-	  z-index: 2;
-	}
+    nav.hide-on-large.only.trigger {
+      display: block;
+      position: fixed;
+      top: 0;
+      z-index: 2;
+    }
 
-	.name-title {
-	  display: block;
-	  height: 100%;
-	  padding-top: 15px;
-	  text-align: center;
-	  width: 100%;
+    .name-title {
+      display: block;
+      height: 100%;
+      padding-top: 15px;
+      text-align: center;
+      width: 100%;
       position: absolute;
-	}
+    }
 
-	.name-title > span,
-	.name-title > a {
+    .name-title > span,
+    .name-title > a {
         position: relative;
         line-height: 20px;
-	}
+    }
 
-	.name-title a {
+    .name-title a {
         font-size: 22px;
         display: block;
-	}
+    }
 
-	.name-title span {
+    .name-title span {
         display: block;
         font-size: 14px;
-	}
+    }
 
-	h3,
-	.container {
+    h3,
+    .container {
         position: relative;
-	}
+    }
 
-	.card .role {
+    .card .role {
         position: relative;
         right: initial;
         top: initial;
-	}
+    }
 }
 
 @media (max-width: 600px) {
-	h2 {
-	  font-size: 22px;
-	  line-height: 150%;
-	  margin: 30px 0 0;
-	}
+    h2 {
+      font-size: 22px;
+      line-height: 150%;
+      margin: 30px 0 0;
+    }
 
-	#intro.section .container *:not(span) {
-		padding: 0;
-	}
+    #intro.section .container *:not(span) {
+        padding: 0;
+    }
 
-	.card .card-content .card-title {
+    .card .card-content .card-title {
         font-size: 20px;
         line-height: 24px;
-	}
+    }
 
-	#experience span.card-title {
+    #experience span.card-title {
         text-align: center;
         display: block
-	}
+    }
 
-	#experience span.card-title a {
-	   margin: 0;
-	}
+    #experience span.card-title a {
+       margin: 0;
+    }
 
-	i.mdi-navigation-close.right {
-	  position: relative;
-	  bottom: 35px;
-	}
+    i.mdi-navigation-close.right {
+      position: relative;
+      bottom: 35px;
+    }
 
     /* Spacing between buttons */
     .btn-footer {
