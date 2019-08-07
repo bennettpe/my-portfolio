@@ -239,10 +239,6 @@ h3 {
   width: 675px;
 }
 
-.hide-on-med-and-down {
-   padding-top: 20px;
-}
-
 .waves-effect .waves-ripple {
     /* The alpha value allows the text and background color
        of the button to still show through. */
@@ -251,8 +247,9 @@ h3 {
  }
 
 .card {
-    margin-bottom: 40px;
     border-radius: 0.45rem;
+    margin-bottom: 40px;
+    padding-top: 20px;
 }
 
 .card .role {
@@ -271,14 +268,6 @@ h3 {
 .card li a:hover {
     color: #333;
     font-weight: 500;
-}
-
-.card .card-content{
-    padding: 5px 0 5px 0;
-}
-
-.card .card-content p {
-    padding: 5px;
 }
 
 .card h5 {
@@ -309,6 +298,10 @@ h3 {
 
 #experience .card .col.s12.m2 a img {
   max-height: 60px;
+}
+
+#experiance .card .card-content {
+    padding 10px;
 }
 
 .card-action span {
@@ -362,6 +355,11 @@ a.hoverline:hover {
 
 #skills-it .card.large {
     height: 360px;
+}
+
+#skills .card,
+#skills .card-content {
+    padding: 5px;
 }
 
 #skills h4 {
@@ -445,6 +443,7 @@ img.exp-img {
         font-size: 14px;
         line-height: 200%;
         margin-left: 20px;
+        margin-right: 10px;
     }
 }
 
@@ -562,9 +561,9 @@ img.exp-img {
 
 @media (max-width: 600px) {
     h2 {
-      font-size: 22px;
-      line-height: 150%;
-      margin: 30px 0 0;
+        font-size: 22px;
+        line-height: 150%;
+        margin: 30px 0 0;
     }
 
     #intro.section .container *:not(span) {
@@ -576,18 +575,27 @@ img.exp-img {
         line-height: 24px;
     }
 
+    .card .card-content,
+    .card .card-content p {
+        padding: 5px;
+    }
+
+    .role {
+        padding: 10px;
+    }
+
     #experience span.card-title {
         text-align: center;
         display: block
     }
 
     #experience span.card-title a {
-       margin: 0;
+        margin: 0;
     }
 
     i.mdi-navigation-close.right {
-      position: relative;
-      bottom: 35px;
+        position: relative;
+        bottom: 35px;
     }
 
     /* Spacing between buttons */
