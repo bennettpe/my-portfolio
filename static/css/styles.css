@@ -172,7 +172,7 @@ li.logo span {
 }
 
 .title {
-    font-size: 2.28rem;
+    font-size: 1.90rem;
 }
 
 /* Change page title */
@@ -227,7 +227,7 @@ h3 {
 }
 
 #intro.section {
-    padding: 0 10px;
+    padding: 10px;
 }
 
 /* ADD background color to intro text background */
