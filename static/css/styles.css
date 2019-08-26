@@ -257,6 +257,7 @@ h3 {
 
 .collapsible-header {
     margin: 0px ;
+    padding: 0rem 1rem 1rem 0rem;
     text-align: center;
 }
 
@@ -366,27 +367,18 @@ a.hoverline:hover {
     height: 360px;
 }
 
-#skills-it .card.large {
-    height: 360px;
-}
-
 #skills .card,
 #skills .card-content {
     padding: 5px;
+    margin-bottom:20px ;
 }
 
 #skills h4 {
     /* border-bottom: 1px solid #ddd; */
     /* margin-bottom: 30px; */
-    padding-bottom: 10px;
-    text-align: center;
-}
-
-#skills-it h4 {
-    border-bottom: 1px solid #ddd;
-    /* margin-bottom: 30px; */
-    padding-bottom: 20px;
-    text-align: center;
+    /*padding-bottom: 10px; */
+    /* text-align: center; */
+    margin: 1rem;
 }
 
 #skills .col img.responsive-img {
@@ -396,6 +388,25 @@ a.hoverline:hover {
     text-align: center;
     vertical-align: middle;
     display: table-cell;
+}
+
+#skills .row {
+    margin-bottom: 0px;
+}
+
+#skills-it h4 {
+    border-bottom: 1px solid #ddd;
+    /* margin-bottom: 30px; */
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#skills-it .card.large {
+    height: 360px;
+}
+
+#skills-it {
+    padding-top: 3.75rem;
 }
 
 #skills-it .col img.responsive-img {
