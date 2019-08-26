@@ -246,6 +246,20 @@ h3 {
     background-color: rgba(188, 186, 190, 0.2);
  }
 
+.collapsible {
+    background-color: white;
+    margin: 0px;
+}
+
+.collapsible-body {
+    margin: 0px 0px 5px 0px;
+}
+
+.collapsible-header {
+    margin: 0px ;
+    text-align: center;
+}
+
 .card {
     border-radius: 0.45rem;
     margin-bottom: 40px;
@@ -362,7 +376,7 @@ a.hoverline:hover {
 }
 
 #skills h4 {
-    border-bottom: 1px solid #ddd;
+    /* border-bottom: 1px solid #ddd; */
     /* margin-bottom: 30px; */
     padding-bottom: 10px;
     text-align: center;
