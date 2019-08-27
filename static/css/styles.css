@@ -263,14 +263,14 @@ h3 {
 
 
 .collapsible li {
-    transition: 0.7s;
+    transition: 0.6s;
 }
 
 .collapsible li.active i {
   -ms-transform: rotate(90deg); /* IE 9 */
   -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
   transform: rotate(90deg);
-  color: green !important;
+  color: #009688 !important;
 }
 
 .card {
@@ -407,17 +407,19 @@ a.hoverline:hover {
 }
 
 #skills-it h4 {
-    border-bottom: 1px solid #ddd;
+    /* border-bottom: 1px solid #ddd; */
     /* margin-bottom: 30px; */
-    padding-bottom: 20px;
-    text-align: center;
+    /* padding-bottom: 20px; */
+    /* text-align: center; */
+    margin: 1rem;
 }
 
 #skills-it .card.large {
     height: 360px;
 }
 
-#skills-it {
+#skills-it,
+#projects {
     padding-top: 3.75rem;
 }
 
