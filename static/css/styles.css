@@ -255,21 +255,29 @@ h3 {
     /*margin: 0px 0px 5px 0px; */
 }
 
+.collapsible-body p {
+    padding: 0rem 0rem 0.5rem 0rem;
+}
+
 .collapsible-header {
     margin: 0px ;
-    padding: 0rem 1rem 1rem 0rem;
+    padding: 0rem 0rem 1rem 0rem;
     text-align: center;
 }
 
+.collapsible-header i {
+    margin: 0rem;
+}
 
 .collapsible li {
     transition: 0.6s;
 }
 
+/* Rotate chevron */
 .collapsible li.active i {
   -ms-transform: rotate(90deg); /* IE 9 */
   -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-  transform: rotate(90deg);
+  transform: rotate(180deg);
   color: #009688 !important;
 }
 
@@ -326,8 +334,17 @@ h3 {
   max-height: 60px;
 }
 
-#experiance .card .card-content {
+#experience .card .card-content {
     padding 10px;
+}
+
+#experience h4 {
+    /* border-bottom: 1px solid #ddd; */
+    /* margin-bottom: 30px; */
+    /*padding-bottom: 10px; */
+    /* text-align: center; */
+    font-size: 1.5rem;
+    margin: 1rem;
 }
 
 .card-action span {
@@ -390,6 +407,7 @@ a.hoverline:hover {
     /* margin-bottom: 30px; */
     /*padding-bottom: 10px; */
     /* text-align: center; */
+    font-size: 2rem;
     margin: 1rem;
 }
 
@@ -412,6 +430,7 @@ a.hoverline:hover {
     /* padding-bottom: 20px; */
     /* text-align: center; */
     margin: 1rem;
+    font-size: 2rem;
 }
 
 #skills-it .card.large {
