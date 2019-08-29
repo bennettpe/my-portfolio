@@ -407,7 +407,7 @@ a.hoverline:hover {
     /* margin-bottom: 30px; */
     /*padding-bottom: 10px; */
     /* text-align: center; */
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 1rem;
 }
 
@@ -430,7 +430,7 @@ a.hoverline:hover {
     /* padding-bottom: 20px; */
     /* text-align: center; */
     margin: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 #skills-it .card.large {
@@ -438,7 +438,9 @@ a.hoverline:hover {
 }
 
 #skills-it,
-#projects {
+#projects,
+#education,
+#contact {
     padding-top: 3.75rem;
 }
 
