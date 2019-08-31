@@ -79,9 +79,9 @@ nav {
 }
 
 nav i {
-    padding: 0 15px;
+    padding: 15px;
     position: relative;
-    top: 5px;
+    /*top: 5px; */
 }
 
 main {
@@ -190,7 +190,7 @@ h3 {
 }
 
 .section {
-    padding-top: 0;
+    padding: 0rem;
     position: relative;
 }
 
@@ -261,12 +261,15 @@ h3 {
 
 .collapsible-header {
     margin: 0px ;
-    padding: 0rem 0rem 1rem 0rem;
+    height: auto;
     text-align: center;
+    /* padding: 0rem 0rem 1rem 0rem; */
 }
 
 .collapsible-header i {
     margin: 0rem;
+    width: 1.5rem;
+    line-height: inherit;
 }
 
 .collapsible li {
@@ -339,10 +342,6 @@ h3 {
 }
 
 #experience h4 {
-    /* border-bottom: 1px solid #ddd; */
-    /* margin-bottom: 30px; */
-    /*padding-bottom: 10px; */
-    /* text-align: center; */
     font-size: 1.5rem;
     margin: 1rem;
 }
@@ -409,10 +408,7 @@ a.hoverline:hover {
 }
 
 #skills h4 {
-    /* border-bottom: 1px solid #ddd; */
-    /* margin-bottom: 30px; */
-    /*padding-bottom: 10px; */
-    /* text-align: center; */
+    text-align: center;
     font-size: 1.5rem;
     margin: 1rem;
 }
@@ -431,10 +427,7 @@ a.hoverline:hover {
 }
 
 #skills-it h4 {
-    /* border-bottom: 1px solid #ddd; */
-    /* margin-bottom: 30px; */
-    /* padding-bottom: 20px; */
-    /* text-align: center; */
+    text-align: center;
     margin: 1rem;
     font-size: 1.5rem;
 }
@@ -443,12 +436,7 @@ a.hoverline:hover {
     height: 360px;
 }
 
-#skills-it,
-#projects,
-#education,
-#contact {
-    padding-top: 3.75rem;
-}
+
 
 #skills-it .col img.responsive-img {
     margin: 0 auto;
@@ -503,6 +491,7 @@ img.exp-img {
   top: 2px;
 }
 
+/* Media queries */
 @media (max-width: 1360px) {
     .card ul li {
         font-size: 14px;
@@ -543,6 +532,11 @@ img.exp-img {
 
     #other .row {
      justify-content: flex-start;
+    }
+
+    #experience h4 {
+        font-size: 1.4rem;
+        margin: 0.5rem;
     }
 }
 
@@ -590,7 +584,7 @@ img.exp-img {
     .name-title {
       display: block;
       height: 100%;
-      padding-top: 15px;
+      padding: 10px 0px 10px 0px;
       text-align: center;
       width: 100%;
       position: absolute;
@@ -610,6 +604,7 @@ img.exp-img {
     .name-title span {
         display: block;
         font-size: 14px;
+        padding: 10px 0px 10px 0px;
     }
 
     h3,
@@ -621,6 +616,20 @@ img.exp-img {
         position: relative;
         right: initial;
         top: initial;
+    }
+
+    #experience h4 {
+        font-size: 1.25rem;
+        margin: 0.5rem;
+    }
+
+    #skills,
+    #skills-it,
+    #projects,
+    #education,
+    #experience,
+    #contact {
+        padding-top: 4rem;
     }
 }
 
@@ -653,6 +662,16 @@ img.exp-img {
         padding: 10px;
     }
 
+    #experience h4 {
+        font-size: 0.75rem;
+        margin: 0.5rem;
+    }
+
+    #experience span.exp-date {
+        font-size: 0.75rem;
+        padding: 0px 5px 0px 5px;
+    }
+
     #experience span.card-title {
         text-align: center;
         display: block
@@ -660,6 +679,16 @@ img.exp-img {
 
     #experience span.card-title a {
         margin: 0;
+    }
+
+    #skills h4 {
+        font-size: 1rem;
+        margin: 0.5rem;
+    }
+
+    #skills-it h4 {
+        font-size: 1rem;
+        margin: 0.5rem;
     }
 
     i.mdi-navigation-close.right {
