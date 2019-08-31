@@ -54,6 +54,16 @@ blockquote * {
     margin-right: 20px
 }
 
+/* */
+ #skills,
+ #skills-it,
+ #projects,
+ #education,
+ #experience,
+ #contact {
+    padding-top: 3.75rem;
+}
+
 /* Experiance text */
 .exp-text {
     color:#505160 !important; /* Thundercloud */
@@ -164,6 +174,7 @@ li.logo span {
 }
 
 .container {
+    padding: 0 0.5rem;
     width: 95%
 }
 
@@ -183,9 +194,9 @@ li.logo span {
 
 h3 {
     font-weight: 200;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     margin-top: 0;
-    padding: 30px 40px;
+    padding: 20px 30px;
     text-transform: none;
 }
 
@@ -436,8 +447,6 @@ a.hoverline:hover {
     height: 360px;
 }
 
-
-
 #skills-it .col img.responsive-img {
     margin: 0 auto;
     max-height: 100px;
@@ -565,9 +574,16 @@ img.exp-img {
         line-height: 56px;
     }
 
+    /*
     h3 {
        padding: 20px 30px;
        margin-bottom: 40px;
+    }
+    */
+
+    h3,
+    .container {
+        position: relative;
     }
 
     .container {
@@ -605,11 +621,6 @@ img.exp-img {
         display: block;
         font-size: 14px;
         padding: 10px 0px 10px 0px;
-    }
-
-    h3,
-    .container {
-        position: relative;
     }
 
     .card .role {
@@ -681,6 +692,10 @@ img.exp-img {
         margin: 0;
     }
 
+    .collapsible-header {
+        padding: 0rem;
+    }
+
     #skills h4 {
         font-size: 1rem;
         margin: 0.5rem;
@@ -690,6 +705,7 @@ img.exp-img {
         font-size: 1rem;
         margin: 0.5rem;
     }
+
 
     i.mdi-navigation-close.right {
         position: relative;
