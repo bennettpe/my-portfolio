@@ -347,6 +347,12 @@ h3 {
     margin: 1rem;
 }
 
+.exp-date {
+    font-size: 16px;
+    color: #505160;
+    padding: 0px 15px 0px 15px;
+}
+
 .card-action span {
     font-size: 85%;
     color: #68829e;
